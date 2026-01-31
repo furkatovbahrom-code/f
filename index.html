@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>B-ECO Fuel Tabs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">B-ECO</div>
+  <div class="lang">
+    <button onclick="setLang('kz')">KZ</button>
+    <button onclick="setLang('uz')">UZ</button>
+    <button onclick="setLang('ru')">RU</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1 id="title"></h1>
+    <p id="desc"></p>
+
+    <div class="actions">
+      <a id="callBtn" class="btn call" href="#">📞 Qo‘ng‘iroq</a>
+      <a id="waBtn" class="btn wa" href="#" target="_blank">💬 WhatsApp</a>
+    </div>
+  </div>
+
+  <img src="assets/fuel-tabs.jpg" alt="Fuel Tabs">
+</section>
+
+<section class="info">
+  <button onclick="showBox(1)" id="b1"></button>
+  <button onclick="showBox(2)" id="b2"></button>
+  <button onclick="showBox(3)" id="b3"></button>
+</section>
+
+<section class="content">
+  <div id="box1" class="box"></div>
+  <div id="box2" class="box"></div>
+  <div id="box3" class="box"></div>
+</section>
+
+<footer>
+  © 2026 B-ECO Fuel Tabs
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
